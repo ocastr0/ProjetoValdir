@@ -35,7 +35,8 @@ $player1->listarItens();
 
 echo "--------------------------------------------------";
 
-// Subir nível do player1
+echo "</br>";
+$player1->subirNivel();
 echo "</br>";
 $player1->subirNivel();
 
