@@ -5,8 +5,8 @@ require_once 'class/Itens/Ataque.php';
 require_once 'class/Itens/Defesa.php';
 require_once 'class/Itens/Magia.php';
 
-$player1 = new Player("Castro", 1);
-$player2 = new Player("Gustavo", 1);
+$player1 = new Player("Castro");
+$player2 = new Player("Gustavo");
 
 $ataque1 = new Ataque("Espada");
 $ataque2 = new Ataque("Machado");
