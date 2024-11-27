@@ -3,10 +3,10 @@ require_once 'Inventario.php';
 
 class Player {
     private string $nickname;
-    private int $nivel;
+    private int $nivel = 1;
     private Inventario $inventario;
 
-    public function __construct(string $nickname, int $nivel){
+    public function __construct(string $nickname, int $nivel = 1){
         $this->setNickname($nickname);
         $this->setNivel($nivel);
         $this->inventario = new Inventario(20);
